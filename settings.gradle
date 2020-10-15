@@ -1,0 +1,6 @@
+include ':hashmap'
+include ':linkedlist'
+include ':array'
+include ':simplebutterknife'
+include ':app'
+rootProject.name = "SharkTestDemo"
