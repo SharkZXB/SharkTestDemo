@@ -7,6 +7,7 @@
       <module name="hashmap" target="1.7" />
       <module name="lib" target="1.7" />
       <module name="linkedlist" target="1.7" />
+      <module name="zaroutersimplelib" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
