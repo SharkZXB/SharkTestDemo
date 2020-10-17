@@ -18,9 +18,6 @@
             <option value="$PROJECT_DIR$/popup" />
             <option value="$PROJECT_DIR$/simplebutterknife" />
             <option value="$PROJECT_DIR$/zrouter" />
-            <option value="$PROJECT_DIR$/zrouter_annotation" />
-            <option value="$PROJECT_DIR$/zrouter_annotation_complier" />
-            <option value="$PROJECT_DIR$/zrouter_core" />
             <option value="$PROJECT_DIR$/zroutersimple" />
           </set>
         </option>
