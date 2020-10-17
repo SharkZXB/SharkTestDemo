@@ -15,12 +15,17 @@
             <option value="$PROJECT_DIR$/array" />
             <option value="$PROJECT_DIR$/hashmap" />
             <option value="$PROJECT_DIR$/linkedlist" />
+            <option value="$PROJECT_DIR$/popup" />
             <option value="$PROJECT_DIR$/simplebutterknife" />
             <option value="$PROJECT_DIR$/zrouter" />
+            <option value="$PROJECT_DIR$/zrouter_annotation" />
+            <option value="$PROJECT_DIR$/zrouter_annotation_complier" />
+            <option value="$PROJECT_DIR$/zrouter_core" />
             <option value="$PROJECT_DIR$/zroutersimple" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
