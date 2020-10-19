@@ -1,3 +1,5 @@
+include ':handler'
+include ':download'
 include ':imageloader'
 include ':popup'
 include ':zroutersimple'

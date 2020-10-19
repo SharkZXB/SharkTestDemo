@@ -8,6 +8,8 @@
       <module name="lib" target="1.7" />
       <module name="linkedlist" target="1.7" />
       <module name="SharkTestDemo.app" target="1.8" />
+      <module name="SharkTestDemo.download" target="1.8" />
+      <module name="SharkTestDemo.handler" target="1.8" />
       <module name="SharkTestDemo.imageloader" target="1.8" />
       <module name="SharkTestDemo.popup" target="1.8" />
       <module name="SharkTestDemo.router-core" target="1.8" />

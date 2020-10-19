@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/array" />
+            <option value="$PROJECT_DIR$/download" />
+            <option value="$PROJECT_DIR$/handler" />
             <option value="$PROJECT_DIR$/hashmap" />
             <option value="$PROJECT_DIR$/imageloader" />
             <option value="$PROJECT_DIR$/linkedlist" />
