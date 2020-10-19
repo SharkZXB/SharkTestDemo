@@ -8,9 +8,17 @@
       <module name="lib" target="1.7" />
       <module name="linkedlist" target="1.7" />
       <module name="SharkTestDemo.app" target="1.8" />
+      <module name="SharkTestDemo.imageloader" target="1.8" />
       <module name="SharkTestDemo.popup" target="1.8" />
+      <module name="SharkTestDemo.router-core" target="1.8" />
+      <module name="SharkTestDemo.router.zrouter" target="1.8" />
+      <module name="SharkTestDemo.router.zrouter-core" target="1.8" />
+      <module name="SharkTestDemo.router.zrouter-module1" target="1.8" />
+      <module name="SharkTestDemo.router.zroutersimple" target="1.8" />
       <module name="SharkTestDemo.simplebutterknife" target="1.8" />
-      <module name="SharkTestDemo.zrouter" target="1.8" />
+      <module name="SharkTestDemo.zrouter-core" target="1.8" />
+      <module name="SharkTestDemo.zrouter-module" target="1.8" />
+      <module name="SharkTestDemo.zrouter-module1" target="1.8" />
       <module name="SharkTestDemo.zrouter_annotation_complier" target="1.8" />
       <module name="SharkTestDemo.zrouter_core" target="1.8" />
       <module name="SharkTestDemo.zroutersimple" target="1.8" />

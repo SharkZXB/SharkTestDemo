@@ -12,9 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sharkz.popup.sdk.SimpleTextTip;
-import com.sharkz.popup.sdk.gravity.ArrowGravity;
-import com.sharkz.popup.sdk.gravity.TipGravity;
+import com.sharkz.popup.arrowpopup.SimpleTextTip;
+import com.sharkz.popup.arrowpopup.ArrowGravity;
+import com.sharkz.popup.arrowpopup.TipGravity;
 
 
 public class RecyclerViewTestActivity extends AppCompatActivity {

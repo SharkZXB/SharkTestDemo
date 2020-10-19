@@ -14,10 +14,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/array" />
             <option value="$PROJECT_DIR$/hashmap" />
+            <option value="$PROJECT_DIR$/imageloader" />
             <option value="$PROJECT_DIR$/linkedlist" />
             <option value="$PROJECT_DIR$/popup" />
             <option value="$PROJECT_DIR$/simplebutterknife" />
-            <option value="$PROJECT_DIR$/zrouter" />
             <option value="$PROJECT_DIR$/zroutersimple" />
           </set>
         </option>

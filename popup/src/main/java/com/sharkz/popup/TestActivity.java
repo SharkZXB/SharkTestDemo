@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
-import com.sharkz.popup.sdk.TransformersTip;
-import com.sharkz.popup.sdk.gravity.ArrowGravity;
-import com.sharkz.popup.sdk.gravity.TipGravity;
+import com.sharkz.popup.arrowpopup.TransformersTip;
+import com.sharkz.popup.arrowpopup.ArrowGravity;
+import com.sharkz.popup.arrowpopup.TipGravity;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

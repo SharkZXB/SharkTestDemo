@@ -9,10 +9,10 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 
-import com.sharkz.popup.sdk.SimpleTextTip;
-import com.sharkz.popup.sdk.TransformersTip;
-import com.sharkz.popup.sdk.gravity.ArrowGravity;
-import com.sharkz.popup.sdk.gravity.TipGravity;
+import com.sharkz.popup.arrowpopup.SimpleTextTip;
+import com.sharkz.popup.arrowpopup.TransformersTip;
+import com.sharkz.popup.arrowpopup.ArrowGravity;
+import com.sharkz.popup.arrowpopup.TipGravity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-       // test(R.id.mb_test, TestActivity.class);
-       // test(R.id.mb_recyclerview_test, RecyclerViewTestActivity.class);
+        test(R.id.mb_test, TestActivity.class);
+        test(R.id.mb_recyclerview_test, RecyclerViewTestActivity.class);
     }
 
     private void test(int id, final Class<? extends Activity> clazz) {
@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
                 .setTipGravity(TipGravity.TO_BOTTOM_CENTER) // 设置浮窗相对于锚点控件展示的位置
+                .setArrowGravity(ArrowGravity.CENTER_TO_START) // 设置箭头相对于浮窗的位置
                 .setTipOffsetXDp(0) // 设置浮窗在 x 轴的偏移量
                 .setTipOffsetYDp(-6) // 设置浮窗在 y 轴的偏移量
 

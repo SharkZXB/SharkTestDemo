@@ -1,6 +1,6 @@
+include ':imageloader'
 include ':popup'
 include ':zroutersimple'
-include ':zrouter'
 include ':hashmap'
 include ':linkedlist'
 include ':array'

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:ignore="HardcodedText">
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/mb_anchor_one"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
@@ -15,7 +15,7 @@
         android:text="演示在 Java 代码中设置背景"
         android:textAllCaps="false" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/mb_anchor_two"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
@@ -23,7 +23,7 @@
         android:text="演示在布局文件中设置背景"
         android:textAllCaps="false" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/mb_anchor_three"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
@@ -33,7 +33,7 @@
         android:text="仅有文本的浮窗直接使用 SimpleTextTip"
         android:textAllCaps="false" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/mb_recyclerview_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
         android:text="RecyclerViewTestActivity"
         android:textAllCaps="false" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/mb_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
