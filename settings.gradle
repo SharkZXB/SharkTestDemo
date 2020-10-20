@@ -1,3 +1,4 @@
+include ':aidl'
 include ':handler'
 include ':download'
 include ':imageloader'
