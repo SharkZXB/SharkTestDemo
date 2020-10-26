@@ -1,3 +1,5 @@
+include ':largeimage2'
+include ':largeimage'
 include ':aidl'
 include ':handler'
 include ':download'
