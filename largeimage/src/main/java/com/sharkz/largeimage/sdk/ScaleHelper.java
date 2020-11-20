@@ -8,7 +8,7 @@ import android.view.animation.Interpolator;
  *
  * 缩放 助手
  */
-class ScaleHelper {
+public class ScaleHelper {
 
     private long mStartTime;
     private Interpolator mInterpolator;

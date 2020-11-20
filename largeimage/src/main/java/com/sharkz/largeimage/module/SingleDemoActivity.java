@@ -10,8 +10,10 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.sharkz.largeimage.R;
-import com.sharkz.largeimage.sdk.LargeImageView;
+import com.sharkz.largeimage.sdk.largeview.CriticalScaleValueHook;
+import com.sharkz.largeimage.sdk.largeview.LargeImageView;
 import com.sharkz.largeimage.sdk.factory.InputStreamBitmapDecoderFactory;
+import com.sharkz.largeimage.sdk.largeview.OnDoubleClickListener;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -91,7 +93,8 @@ public class SingleDemoActivity extends AppCompatActivity {
         }
     };
 
-    private LargeImageView.CriticalScaleValueHook criticalScaleValueHook = new LargeImageView.CriticalScaleValueHook() {
+    private CriticalScaleValueHook criticalScaleValueHook = new CriticalScaleValueHook() {
+
         @Override
         public float getMinScale(LargeImageView largeImageView, int imageWidth, int imageHeight, float suggestMinScale) {
             return 1;
@@ -106,7 +109,7 @@ public class SingleDemoActivity extends AppCompatActivity {
     /**
      * 双击事件
      */
-    private LargeImageView.OnDoubleClickListener onDoubleClickListener = new LargeImageView.OnDoubleClickListener() {
+    private OnDoubleClickListener onDoubleClickListener = new OnDoubleClickListener() {
         @Override
         public boolean onDoubleClick(LargeImageView view, MotionEvent event) {
             float fitScale = view.getFitScale();

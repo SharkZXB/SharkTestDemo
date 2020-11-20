@@ -15,7 +15,7 @@
         android:layout_height="match_parent">
 
 
-        <com.sharkz.largeimage.sdk.LargeImageView
+        <com.sharkz.largeimage.sdk.largeview.LargeImageView
             android:id="@+id/networkDemo_photoView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

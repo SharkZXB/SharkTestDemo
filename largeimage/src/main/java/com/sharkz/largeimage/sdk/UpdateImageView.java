@@ -30,13 +30,18 @@ import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.core.view.ViewCompat;
 
 import com.sharkz.largeimage.sdk.factory.BitmapDecoderFactory;
+import com.sharkz.largeimage.sdk.largeview.ILargeImageView;
+import com.sharkz.largeimage.sdk.load.BlockImageLoader;
+import com.sharkz.largeimage.sdk.load.DrawData;
+import com.sharkz.largeimage.sdk.load.OnImageLoadListener;
+import com.sharkz.largeimage.sdk.load.OnLoadStateChangeListener;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class UpdateImageView extends UpdateView implements BlockImageLoader.OnImageLoadListener, ILargeImageView {
+public class UpdateImageView extends UpdateView implements OnImageLoadListener, ILargeImageView {
 
-    private BlockImageLoader.OnImageLoadListener onImageLoadListener;
+    private OnImageLoadListener onImageLoadListener;
     private int mDrawableWidth;
     private int mDrawableHeight;
     private int mLevel;
@@ -71,7 +76,7 @@ public class UpdateImageView extends UpdateView implements BlockImageLoader.OnIm
     }
 
     @Override
-    public BlockImageLoader.OnImageLoadListener getOnImageLoadListener() {
+    public OnImageLoadListener getOnImageLoadListener() {
         return onImageLoadListener;
     }
 
@@ -156,11 +161,11 @@ public class UpdateImageView extends UpdateView implements BlockImageLoader.OnIm
     }
 
     @Override
-    public void setOnImageLoadListener(BlockImageLoader.OnImageLoadListener onImageLoadListener) {
+    public void setOnImageLoadListener(OnImageLoadListener onImageLoadListener) {
         this.onImageLoadListener = onImageLoadListener;
     }
 
-    public void setOnLoadStateChangeListener(BlockImageLoader.OnLoadStateChangeListener onLoadStateChangeListener) {
+    public void setOnLoadStateChangeListener(OnLoadStateChangeListener onLoadStateChangeListener) {
         if (imageBlockLoader != null) {
             imageBlockLoader.setOnLoadStateChangeListener(onLoadStateChangeListener);
         }
@@ -353,7 +358,7 @@ public class UpdateImageView extends UpdateView implements BlockImageLoader.OnIm
                 }
             } else {
                 int saveCount = canvas.save();
-                for (BlockImageLoader.DrawData data : drawDataList) {
+                for (DrawData data : drawDataList) {
                     Rect drawRect = data.imageRect;
                     drawRect.left = (int) (Math.ceil(drawRect.left / imageScale) + mOffsetX);
                     drawRect.top = (int) (Math.ceil(drawRect.top / imageScale) + mOffsetY);
@@ -366,7 +371,7 @@ public class UpdateImageView extends UpdateView implements BlockImageLoader.OnIm
         }
     }
 
-    private List<BlockImageLoader.DrawData> drawDataList = new ArrayList<>();
+    private List<DrawData> drawDataList = new ArrayList<>();
 
     @Override
     public void onBlockImageLoadFinished() {

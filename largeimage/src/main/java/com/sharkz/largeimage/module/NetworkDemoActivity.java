@@ -14,7 +14,7 @@ import com.bumptech.glide.request.target.Target;
 import com.sharkz.largeimage.R;
 import com.sharkz.largeimage.glide.OkHttpProgressGlideModule;
 import com.sharkz.largeimage.glide.ProgressTarget;
-import com.sharkz.largeimage.sdk.LargeImageView;
+import com.sharkz.largeimage.sdk.largeview.LargeImageView;
 import com.sharkz.largeimage.sdk.factory.FileBitmapDecoderFactory;
 
 import java.io.File;

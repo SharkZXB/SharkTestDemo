@@ -13,7 +13,7 @@
         android:textOff="当前可 缩放和滑动"
         android:textOn="当前不可 缩放和滑动" />
 
-    <com.sharkz.largeimage.sdk.LargeImageView
+    <com.sharkz.largeimage.sdk.largeview.LargeImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

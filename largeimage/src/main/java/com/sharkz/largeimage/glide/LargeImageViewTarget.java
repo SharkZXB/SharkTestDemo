@@ -6,13 +6,10 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.ViewTarget;
-import com.sharkz.largeimage.sdk.ILargeImageView;
+import com.sharkz.largeimage.sdk.largeview.ILargeImageView;
 import com.sharkz.largeimage.sdk.factory.FileBitmapDecoderFactory;
 
 import java.io.File;
-
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
-import static android.view.View.Z;
 
 /**
  * A base {@link com.bumptech.glide.request.target.Target} for displaying resources in

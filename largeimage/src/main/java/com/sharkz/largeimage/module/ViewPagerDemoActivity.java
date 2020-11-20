@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.sharkz.largeimage.R;
-import com.sharkz.largeimage.sdk.LargeImageView;
+import com.sharkz.largeimage.sdk.largeview.LargeImageView;
 import com.sharkz.largeimage.sdk.factory.InputStreamBitmapDecoderFactory;
 import com.shizhefei.view.viewpager.RecyclingPagerAdapter;
 
