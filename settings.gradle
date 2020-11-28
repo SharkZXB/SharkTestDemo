@@ -1,3 +1,5 @@
+include ':globalpopup'
+include ':designmode'
 include ':largeimage'
 include ':aidl'
 include ':handler'
