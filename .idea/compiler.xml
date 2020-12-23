@@ -13,6 +13,7 @@
       <module name="SharkTestDemo.download" target="1.8" />
       <module name="SharkTestDemo.handler" target="1.8" />
       <module name="SharkTestDemo.imageloader" target="1.8" />
+      <module name="SharkTestDemo.jobmanager" target="1.8" />
       <module name="SharkTestDemo.mmkv" target="1.8" />
       <module name="SharkTestDemo.mvvm" target="1.8" />
       <module name="SharkTestDemo.popup" target="1.8" />
