@@ -9,16 +9,25 @@
       <module name="linkedlist" target="1.7" />
       <module name="SharkTestDemo.aidl" target="1.8" />
       <module name="SharkTestDemo.app" target="1.8" />
+      <module name="SharkTestDemo.applaunchicon" target="1.8" />
       <module name="SharkTestDemo.download" target="1.8" />
       <module name="SharkTestDemo.handler" target="1.8" />
       <module name="SharkTestDemo.imageloader" target="1.8" />
+      <module name="SharkTestDemo.mmkv" target="1.8" />
+      <module name="SharkTestDemo.mvvm" target="1.8" />
       <module name="SharkTestDemo.popup" target="1.8" />
+      <module name="SharkTestDemo.room" target="1.8" />
       <module name="SharkTestDemo.router-core" target="1.8" />
       <module name="SharkTestDemo.router.zrouter" target="1.8" />
       <module name="SharkTestDemo.router.zrouter-core" target="1.8" />
       <module name="SharkTestDemo.router.zrouter-module1" target="1.8" />
       <module name="SharkTestDemo.router.zroutersimple" target="1.8" />
+      <module name="SharkTestDemo.servicetest" target="1.8" />
+      <module name="SharkTestDemo.shape" target="1.8" />
+      <module name="SharkTestDemo.shortcut" target="1.8" />
       <module name="SharkTestDemo.simplebutterknife" target="1.8" />
+      <module name="SharkTestDemo.taskaffinity" target="1.8" />
+      <module name="SharkTestDemo.workmanager" target="1.8" />
       <module name="SharkTestDemo.zrouter-core" target="1.8" />
       <module name="SharkTestDemo.zrouter-module" target="1.8" />
       <module name="SharkTestDemo.zrouter-module1" target="1.8" />

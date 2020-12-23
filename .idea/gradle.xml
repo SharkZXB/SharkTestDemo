@@ -7,20 +7,28 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="JDK" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/aidl" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/applaunchicon" />
             <option value="$PROJECT_DIR$/array" />
             <option value="$PROJECT_DIR$/download" />
             <option value="$PROJECT_DIR$/handler" />
             <option value="$PROJECT_DIR$/hashmap" />
             <option value="$PROJECT_DIR$/imageloader" />
             <option value="$PROJECT_DIR$/linkedlist" />
+            <option value="$PROJECT_DIR$/mmkv" />
+            <option value="$PROJECT_DIR$/mvvm" />
             <option value="$PROJECT_DIR$/popup" />
+            <option value="$PROJECT_DIR$/room" />
+            <option value="$PROJECT_DIR$/servicetest" />
+            <option value="$PROJECT_DIR$/shape" />
+            <option value="$PROJECT_DIR$/shortcut" />
             <option value="$PROJECT_DIR$/simplebutterknife" />
+            <option value="$PROJECT_DIR$/taskaffinity" />
+            <option value="$PROJECT_DIR$/workmanager" />
             <option value="$PROJECT_DIR$/zroutersimple" />
           </set>
         </option>
